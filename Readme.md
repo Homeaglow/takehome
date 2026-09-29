@@ -4,6 +4,12 @@ This project is a default Expo application with Nativewind support used to give 
 
 In order to get started you should be able to `npm install` at the root of this project and then run `npm start`. The project is set to work on iOS, Android, and web and uses Expo Go to make it easier to get up and running. Feel free to pick which ever setup works best for you.
 
+Requirements:
+
+- Node.js 22.13 or newer
+- If running on a physical device, the latest version of Expo Go from the App Store or Google Play. This project uses Expo SDK 57, and the store version of Expo Go only supports the latest SDK.
+- Alternatively, run `npm run ios` (iOS Simulator), `npm run android` (Android Emulator), or `npm run web`. The Expo CLI will install a compatible Expo Go on simulators and emulators for you.
+
 We have included some of our UI foundations in `src/ui` to include things like color, fonts, and spacing in the tailwind config. but otherwise this is a stock template application.
 
 ## The project
