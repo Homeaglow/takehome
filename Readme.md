@@ -8,6 +8,7 @@ Requirements:
 
 - Node.js 22.13 or newer
 - If running on a physical device, the latest version of Expo Go from the App Store or Google Play. This project uses Expo SDK 57, and the store version of Expo Go only supports the latest SDK.
+- If running on a physical iPhone, a free [Expo account](https://expo.dev/signup). Sign in to the same account in both the terminal (`npx expo login`) and the Expo Go app (tap the avatar icon on the home screen). Expo Go for iOS requires this; simulators and Android devices do not.
 - Alternatively, run `npm run ios` (iOS Simulator), `npm run android` (Android Emulator), or `npm run web`. The Expo CLI will install a compatible Expo Go on simulators and emulators for you.
 
 We have included some of our UI foundations in `src/ui` to include things like color, fonts, and spacing in the tailwind config. but otherwise this is a stock template application.
